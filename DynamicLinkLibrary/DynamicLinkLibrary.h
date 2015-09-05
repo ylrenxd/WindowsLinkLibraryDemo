@@ -1,7 +1,7 @@
 #ifndef _DYNAMIC_LINK_LIBRARY_
 #define _DYNAMIC_LINK_LIBRARY_
 
-#ifdef DYNAMICLINKLIBRARY_EXPORTS	//预处理器自动定义DYNAMICLINKLIBRARY_EXPORTS
+#ifdef DYNAMICLINKLIBRARY_EXPORTS	//The project automatically defined DYNAMICLINKLIBRARY_EXPORTS
 #define DLL_API _declspec(dllexport)
 #else
 #define DLL_API _declspec(dllimport)
